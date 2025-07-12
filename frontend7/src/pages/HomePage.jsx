@@ -26,6 +26,9 @@ function HomePage() {
       <div className="top-bar">
         <h1 className="logo">StackIt</h1>
         <div className="nav-actions">
+          <Link to="/searchmentor">
+            <button className="btn primary">Search Mentor</button>
+          </Link>
           <Link to="/askquestion">
             <button className="btn primary">Ask New Question</button>
           </Link>
