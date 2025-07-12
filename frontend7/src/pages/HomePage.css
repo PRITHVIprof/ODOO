@@ -1,0 +1,73 @@
+.container {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.ask-btn,
+.login-btn {
+  padding: 8px 16px;
+  margin-left: 8px;
+  background-color: #2563eb;
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+
+.toolbar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.toolbar input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.question-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.question-card {
+  background-color: #1e293b;
+  padding: 16px;
+  border-radius: 6px;
+}
+
+.pagination {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.pagination button {
+  padding: 6px 12px;
+  background-color: #334155;
+  border: none;
+  border-radius: 4px;
+  color: white;
+}
+
+.active-page {
+  background-color: #2563eb;
+  font-weight: bold;
+}
+
